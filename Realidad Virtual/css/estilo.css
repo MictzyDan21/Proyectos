@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    background: rgb(31, 31, 32);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#titulo{
+    width: 65%;
+}
+
+#registro{
+    font-family: "F25 Bank Printer";
+    width: 35%;
+    font-size: 20px;
+}
+
+#registro a{
+    padding: 10px 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+
+}
+
+#registro a:hover{
+    color:rgb(86, 126, 187)
+}
+
+#icon{
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+}
+
+
+@font-face {
+    font-family: Neuropol;
+    src: url('/fonts/neuropol.otf');
+}
+
+h1{
+    font-family: "Neuropol";
+    font-size: 40px;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+}
+
+h2{
+    font-family: 'Fjalla One', sans-serif;
+    padding: 5px;
+    font-size: 30px;
+}
+
+nav{
+    width: 100%;
+    height: 55px;
+    background: rgb(43, 76, 126);
+    display: flex;
+    top: 0;
+    position: sticky;
+    align-items: center;
+    justify-content: center;
+    font-family: "Berlin Sans FB";
+    font-size: 18px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(220, 224, 230);
+    padding: 10px 30px;
+    margin: 20px;
+    border-radius: 20px;
+    text-shadow: 1px 1px 0px rgb(96, 109, 128);
+
+}
+
+nav a:hover{
+    background-color: rgb(96, 109, 146);
+}
+
+main{
+    width: 90%;
+    padding: 10px;
+    height: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+#cont-1{
+    width: 65%;
+    height: 100%;
+    float: left;
+    
+}
+
+#imagen{
+    width: 100%;
+    height:fit-content ;
+    float: left;
+}
+
+#real{
+    font-family: "Berlin Sans FB";
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-size: 47px;
+    margin-bottom: 10px;
+    
+}
+
+.texto{
+    width: 94%;
+    height: 370px;
+    padding: 2%;
+    margin-left: 1%;
+    float: left;
+
+}
+
+.titu{
+    width: 100%;
+    height: 50px;
+    background: rgb(43, 76, 126);
+    color: rgb(220, 224, 230);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#text-prin{
+    width: 100%;
+    height: 300px;
+    column-count: 2;
+    column-gap: 20px;
+    text-align: justify;
+    line-height: 25px;
+    
+}
+
+#text-crea{
+    width: 60%;
+    height: 300px;
+    text-align: justify;
+    line-height: 25px;
+    float: left;
+    
+}
+
+li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#text-uso{
+    width: 100%;
+    height: 300px;
+    text-align: justify;
+    line-height: 25px;
+    float: left;
+
+}
+
+#text-ne{
+    width: 100%;
+    height: 100px;
+    text-align: justify;
+    line-height: 25px;
+    float: left;
+}
+
+#text-em{
+    width: 100%;
+    height: 100px;
+    text-align: justify;
+    line-height: 25px;
+    float: left;
+}
+
+#text-im{
+    width: 100%;
+    height: 300px;
+    text-align: justify;
+    line-height: 25px;
+    float: left;
+}
+
+#short{
+    height: 150px !important;
+}
+
+#short2{
+    height: 150px !important;
+}
+
+#phil{
+    width: 40%;
+    height: 300px;
+    float: left;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+#refe{
+    width: 94%;
+    height: 250px;
+    padding: 2%;
+    margin-left: 1%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#refe a{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(43, 76, 126);
+    text-decoration: none;
+}
+
+#refe a:hover{
+    text-decoration: underline;
+}
+
+#right{
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+
+#barra{
+    width: 90%;
+    height: 70px;
+    margin-left: 5%;
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 400px;
+    background: rgb(96, 109, 128);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 5px 10px;
+}
+
+.search-bar input{
+    background: transparent;
+    flex:1;
+    border: 0;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: rgb(220, 224, 230);
+}
+
+::placeholder{
+    color: rgb(220, 224, 230);
+}
+
+.search-bar button img{
+    width: 40px;
+}
+
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(43, 76, 126, 0.4);
+    cursor: pointer;
+    margin-right: 0px;
+}
+
+.noti{
+    margin-top: 50px;
+    width: 90%;
+    height: 300px;
+    margin-left: 5%;
+}
+
+.bar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bar a{
+    text-decoration: none;
+    color: white;
+}
+
+h3{
+    font-family: "Berlin Sans FB";
+    font-weight: 500;
+    
+}
+
+#uno{
+    background-color: rgb(96, 109, 128);
+    color:rgb(255, 255, 255);
+}
+
+#dos{
+    background: rgb(96, 109, 146);
+    color:rgb(255, 255, 255);
+}
+
+#tres{
+    background: rgb(96, 109, 176);
+    color:rgb(255, 255, 255);
+}
+
+#cuatro{
+    background: rgb(96, 109, 202);
+    color:rgb(255, 255, 255);
+}
+
+#cinco{
+    background: rgb(96, 109, 224);
+    color:rgb(255, 255, 255);
+}
+
+#seis{
+    background: rgb(96, 109, 255);
+    color:rgb(255, 255, 255);
+}
+
+.barri{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#siete{
+    color: rgb(96, 109, 128) !important;
+}
+
+#ocho{
+    color: rgb(96, 109, 146);
+}
+
+#nueve{
+    color: rgb(96, 109, 176);
+}
+
+#diez{
+    color: rgb(96, 109, 202);
+}
+
+#once{
+    color: rgb(96, 109, 224);
+}
+
+#doce{
+    color: rgb(96, 109, 255);
+}
+
+h3:hover{
+    color: rgb(31, 31, 32);
+    cursor: pointer;
+    
+}
+
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(31, 31, 32);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.foot{
+    width: 16%;
+    height: 250px;
+    margin: 1%;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 50px;
+    
+}
+
+
+#log{
+    font-family: "Neuropol";
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+}
+
+h4{
+    font-size: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+}
+
+@media screen and (max-width:1300px){
+    .texto{
+        height: fit-content;
+    }
+    #text-prin{
+        height: fit-content;
+    }
+
+    #text-crea{
+        height: fit-content;
+    }
+
+    #text-uso{
+        height: fit-content;
+    }
+
+    #text-ne{
+        height: fit-content;
+    }
+    
+    #text-em{
+        height: fit-content;
+        
+    }
+    
+    #text-im{
+        height: fit-content;
+    }
+
+    #refe{
+        height: fit-content
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .search-bar{
+        width: 100%;
+        max-width: 200px;
+
+    }
+
+    .search-bar input{
+        padding:2px 3px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #cont-1{
+        width: 100%;
+    }
+
+    #right{
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    .search-bar{
+        width: 100%;
+        max-width: 550px;
+
+    }
+
+    .search-bar button{
+        margin-right: 0px;
+    }
+    
+
+    footer p{
+        font-size: 13px;
+    }
+
+    .foot{
+        width: 20%;
+        height: 250px;
+        line-height: 30px;
+    }
+
+    #log{
+        
+        font-size: 20px;
+    }
+
+    h4{
+        font-size: 15px;
+    }
+}
+
